@@ -141,3 +141,4 @@ function ccc(cards){
 
 ccc(2); ccc("K"); ccc(10); ccc(6); ccc(5);
 console.log(ccc(10));  
+
