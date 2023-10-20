@@ -84,3 +84,47 @@ unshiftMethod.unshift("Baba");
 console.log(unshiftMethod);
 
 
+
+
+
+
+function resultIsFinal (arr, item){
+    arr.push(item)
+    return arr.shift()
+}
+
+const firstArray = [1,2,3,4,5];
+
+console.log("Before: ", JSON.stringify(firstArray));
+console.log(resultIsFinal(firstArray,6));
+console.log("After: ", firstArray);
+
+var saadAhmed = [1,2,3,4,5,6];
+
+
+console.log(saadAhmed.reverse());
+
+
+var consistencyIsTheKey = ["Saad Ahmed", "Class"];
+
+function isCalledFunc (all , classname) {
+    all.push(classname)
+    return all
+}
+
+console.log("Before: " , JSON.stringify(consistencyIsTheKey));
+console.log(isCalledFunc(consistencyIsTheKey, "1 year"));
+console.log("After: ", consistencyIsTheKey);
+
+
+
+
+
+
+
+
+
+
+
+
+

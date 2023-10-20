@@ -37,6 +37,11 @@ console.log(findRemainder);
 
 // Declaring string in javascript
 
+var ahsanRaza = "My name is Bob";
+
+console.log(ahsanRaza);
+
+
 var myFirstStringWithSingleQuotes = 'Saad Ahmed';
 
 console.log(myFirstStringWithSingleQuotes);
